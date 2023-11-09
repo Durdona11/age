@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Foldit:wght@100;400;800&family=Hanken+Grotesk:ital,wght@0,700;0,800;1,700;1,800&display=swap');
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+section{
+    background-color: hsl(210, 46%, 95%);
+    width :100vw;
+    height:100vh;
+    background-size:cover;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.container{
+    display: flex;
+    max-width: 840px;
+    padding: 56px;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 24px 24px 200px 24px;
+    background: #FFF;
+}
+.union{
+    display: flex;
+    gap: 32px;
+    margin: 0;
+}
+ p{
+    color: #716F6F;
+    font-family: 'Poppins',sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 3.5px;
+    text-transform: uppercase;
+}
+input{
+    display: flex;
+    width: 160px;
+    padding: 12px 24px;
+    border-radius: 8px;
+    border: 1px solid #DCDCDC;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 0.32px;
+    color: #151515;
+}
+.sticks{
+    margin: 0;
+    margin-top: 48px;
+    display: flex;
+}
+.sss img{
+    width: 632px;
+    /* height: 1px;
+    align-self: stretch; */
+    background: #DCDCDC;
+}
+.barg button{
+
+    background-image: url(./images/Frame\ 30.png);
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    border: none;
+    margin-top: -35px;
+}
+.sqr{
+    margin: 0;
+}
+.years{
+    margin-top: -18px;
+}
+h1{
+    color: #151515;
+    font-family: 'Poppins',sans-serif;
+    font-size: 104px;
+    font-style: italic;
+    font-weight: 800;
+    line-height: 110%;
+    letter-spacing: -2.08px;
+}
+span{
+    color: #854DFF;
+    font-family: 'Poppins',sans-serif;
+    font-size: 104px;
+    font-style: italic;
+    font-weight: 800;
+    line-height: 110%; 
+    letter-spacing: -2.08px;
+}
+@media (max-width:450px) {
+    .container{
+    max-width: 375px;
+    padding: 48px 24px;
+    }
+    .union{
+        gap: 16px;
+    }
+    p{
+        font-size: 12px;
+        letter-spacing: 3px;
+    }
+    input{
+        width: 96px;
+        padding: 15px 16px;
+        font-size: 20px;
+    }
+    .sticks{
+        margin-top: 64px;
+    }
+    .sss img{
+        max-width: 316px;
+    }
+    .barg button{
+        margin-left: -200px;
+    }
+    .years{
+        margin-top: -12px;
+    }
+    h1{
+        font-size: 56px;
+    }
+   span{
+    font-size: 56px;
+   }
+}
